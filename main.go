@@ -41,7 +41,7 @@ func main() {
 			},
 			&cli.BoolFlag{
 				Name:        "notify-success",
-				DefaultText: "notifies also when the command was successfully executed",
+				DefaultText: "does not notify when the command was successfully executed",
 				Destination: &notifySuccess,
 				Aliases:     []string{"success"},
 				Value:       false,

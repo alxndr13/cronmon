@@ -10,7 +10,7 @@ Background: i love the cronjob syntax and hate systemd timers but i want to know
 
 ```
 NAME:
-   cronmon - monitors a job and notifies according to your wishes 🔔
+   cronmon - runs a job and notifies according to your wishes 🔔
 
 USAGE:
    cronmon [global options] command [command options] [arguments...]
@@ -19,9 +19,9 @@ COMMANDS:
    help, h  Shows a list of commands or help for one command
 
 GLOBAL OPTIONS:
-   --command value, -c value
-   --cron-name value, --cn value
-   --notify-success, --success    (default: notifies also when the command was successfully executed)
+   --command value, -c value      
+   --cron-name value, --cn value  
+   --notify-success, --success    (default: does not notify when the command was successfully executed)
    --help, -h                     show help
 ```
 
